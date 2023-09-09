@@ -857,6 +857,9 @@ footer{
 	.footer {
 	  font-size: 14px;
 	}
+	.navbar-nav{
+align-items: center;
+	}
   }
   
   @media (orientation: landscape) and (max-height: 400px) {
@@ -877,6 +880,9 @@ footer{
 	.carousel-caption {
 		/* bottom: 125px; */
 		top: 200px;
+	}
+	.navbar-nav{
+		align-items: center;
 	}
   }
   
