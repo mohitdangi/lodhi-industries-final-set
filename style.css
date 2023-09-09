@@ -884,6 +884,27 @@ align-items: center;
 	.navbar-nav{
 		align-items: center;
 	}
+		/* Changes  */
+		.remove-mb img{
+			display: none !important;
+		}	
+		
+		.carousel-item{
+			height:100%;
+			align-items:center ;
+		}
+		.cr1{
+			background: url('./img/machine3.jpeg');
+			object-fit: center;
+		}
+		.cr2{
+			background: url(./img/machine4.jpeg);
+			object-fit: center;
+		}
+		.cr3{
+			background: url(./img/machine1.jpeg);
+			object-fit: center;
+		}
   }
   
   @media screen and (min-width: 768px) {
@@ -951,7 +972,30 @@ align-items: center;
 	.card {
 		margin-bottom: 30px;
 	}
+		/* Changes  */
+	.remove-mb img{
+		display: none !important;
+	}	
 	
+	.carousel-item{
+		height:100%;
+		width: 100%;
+	}
+	.cr1{
+		background: url('./img/machine5.jpeg');
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	.cr2{
+		background: url(./img/machine4.jpeg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	.cr3{
+		background: url(./img/machine1.jpeg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
 	
 }
 @media only screen and (max-width: 574px){
