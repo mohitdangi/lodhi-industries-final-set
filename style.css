@@ -889,7 +889,7 @@ align-items: center;
 			display: none !important;
 		}	
 		
-		.carousel-item{
+		/* .carousel-item{
 			height:100%;
 			align-items:center ;
 		}
@@ -904,6 +904,25 @@ align-items: center;
 		.cr3{
 			background: url(./img/machine1.jpeg);
 			object-fit: center;
+		} */
+		.carousel-item{
+			height:100%;
+			width: 100%;
+		}
+		.cr1{
+			background: url('./img/machine5.jpeg');
+			background-size: 100%;
+			background-repeat: no-repeat;
+		}
+		.cr2{
+			background: url(./img/machine4.jpeg);
+			background-size: 100%;
+			background-repeat: no-repeat;
+		}
+		.cr3{
+			background: url(./img/machine1.jpeg);
+			background-size: 100%;
+			background-repeat: no-repeat;
 		}
   }
   
