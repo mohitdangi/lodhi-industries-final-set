@@ -36,7 +36,11 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Include Toastr CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 
+<!-- Include Toastr JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
@@ -62,7 +66,7 @@
   </div>
 </div>
 </div>
-<div class="border"></div>
+<div class="seperator"></div>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 		<div class="container">
 			<a class="navbar-brand" href="#"><span class="text-warning">Lodhi</span>Industries</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
@@ -89,18 +93,22 @@
 		<div class="carousel-indicators">
 			<button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
 		</div>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
+		<div class="carousel-inner remove-mb">
+			<div class="carousel-item cr1 active">
 				<!-- <img alt="..." class="d-block w-100" src="https://images.unsplash.com/photo-1531053326607-9d349096d887?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"> -->
-				<img alt="..." class="d-block w-100" src="https://images.pexels.com/photos/1474993/pexels-photo-1474993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid">
-				<div class="carousel-caption">
-					<h5>Lodhi Inustries</h5>
+				<img alt="..." class="d-block w-100" src="https://plus.unsplash.com/premium_photo-1682144582509-e520bf8771d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1914&q=80" class="img-fluid">
+				
+        
+
+
+        <div class="carousel-caption">
+					<h5>Lodhi Industries</h5>
 					<p>We craft metal products using advanced techniques, creating diverse items for various applications and industries.</p>
 					<p><a class="btn btn-warning mt-3" href="tel:7869408043"><i class="fas fa-phone-alt"></i> Call us</a></p>
 				</div>
 			</div>
-			<div class="carousel-item">
-				<img alt="..." class="d-block w-100" src="https://images.unsplash.com/photo-1531053326607-9d349096d887?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" class="img-fluid">
+			<div class="carousel-item cr2">
+				<img alt="..." class="d-block w-100 " src="https://images.unsplash.com/photo-1531053326607-9d349096d887?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" class="img-fluid">
 				<div class="carousel-caption">
 					<h5>Always Dedicated</h5>
 					<p>
@@ -108,8 +116,8 @@
 					<p><a class="btn btn-warning mt-3" href="whatsapp://send?phone=7869408043&text=Hello%20from%20my%20website!%20I%20would%20like%20to%20request%20a%20quotation%20for%20metal%20work."> <i class="fab fa-whatsapp"></i> What's app</a></p>
 				</div>
 			</div>
-			<div class="carousel-item">
-				<img alt="..." class="d-block w-100" src="https://images.unsplash.com/photo-1608126841512-ed53266c1d62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" class="img-fluid">
+			<div class="carousel-item cr3">
+				<img alt="..." class="d-block w-100 " src="https://images.unsplash.com/photo-1608126841512-ed53266c1d62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" class="img-fluid">
 				<div class="carousel-caption">
 					<h5>True Construction</h5>
 					<p>
@@ -117,7 +125,8 @@
 					<p><a class="btn btn-warning mt-3" href="tel:7869408043"> <i class="fas fa-phone-alt"></i>Call us</a></p>
 				</div>
 			</div>
-		</div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
+		</div>
+    <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
 	</div>
   <!-- about -->
   <div class="container">
@@ -771,7 +780,7 @@ A metalworking machine that uses rotary cutters to remove material, shaping meta
      <div class="right box">
        <div class="topic">Subscribe us</div>
        <form action="#">
-         <input type="text" placeholder="Enter email address">
+         <input type="text" type="email" placeholder="Enter email address">
          <input type="submit" name="" value="Send">
          <div class="media-icons">
            <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -781,6 +790,7 @@ A metalworking machine that uses rotary cutters to remove material, shaping meta
            <a href="#"><i class="fab fa-linkedin-in"></i></a>
          </div>
        </form>
+       
      </div>
    </div>
    <div class="bottom">
