@@ -333,31 +333,33 @@
              <div><a href="index.html">Home</a></div>
              <div><a href="about.html">About</a></div>
              <div><a href="contact.html">Contact</a></div>
-             <div><a href="index.html#products">Our Products</a></div>
-             <div><a href="index.html#machines">Our Machines</a></div>
+             <div><a href="#products">Our Products</a></div>
+             <div><a href="#machines">Our Machines</a></div>
             </div>
             <div class="right box">
               <div class="topic">Subscribe us</div>
-              <form action="#">
-                <input type="text" placeholder="Enter email address">
-                <input type="submit" name="" value="Send">
-                <div class="media-icons">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-youtube"></i></a>
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
+              <form action="#" id="subscribeForm">
+                  <input type="text" placeholder="Enter email address" id="emailInput" required>
+                  <input type="submit" name="" value="Send" id="sendButton">
+                  <span class="overlay"></span>
+                  <div class="media-icons">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
               </form>
-            </div>
-            <div class="modal-box">
-              <i class="fa-regular fa-circle-check"></i>
-              <h2>Completed</h2>
-              <h3>You have sucessfully downloaded all the source code files.</h3>
-              <div class="buttons">
-                <button class="close-btn">Ok, Close</button>
-                <button>Open File</button>
+          </div>
+            <div class="modal" id="myModal">
+              <div class="modal-content">
+                  <span class="close" id="closeModal">&times;</span>
+                  <i class="fas fa-check-circle fa-4x" style="color: #ffc107;"></i>
+                  <h2>Thank You!</h2>
+                  <p>You have successfully subscribed.</p>
               </div>
+          </div>
+      
           </div>
           <div class="bottom">
             <p>Copyright © 2023 <a href="#">websculpture</a> All rights reserved</p>

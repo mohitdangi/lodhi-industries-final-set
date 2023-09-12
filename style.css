@@ -664,6 +664,7 @@ footer{
   footer .content p{
 	text-align: justify;
 	font-size: 16px;
+	padding-top: 5px;
   }
   footer .content .lower .topic{
 	margin: 24px 0 5px 0;
@@ -756,7 +757,7 @@ footer{
   }
   @media (max-width:560px){
 	footer{
-	  position: relative;
+	  /* position: relative; */
 	}
 	footer .content .box{
 	  width: 100%;
