@@ -43,6 +43,9 @@ body {
   background-color:#d78b8b;
 	left:45px; width:90px;
   }
+  .subheader-container{
+	width: 1005;
+  }
   .subheader {
     display: flex;
     justify-content: space-between;
@@ -372,6 +375,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	gap: 10px;	
+	padding-bottom: 30px;
 	
   }
   .container-number  {
@@ -830,10 +834,16 @@ footer{
   }
   @media screen and (max-width: 768px) {
 	.wrapper-number {
-	  width: 90vw;
+	  width: 100%;
 	  flex-wrap: wrap;
 	  gap: 30px;
 	  
+	}
+	.container-number span.text {
+font-size: 2em;
+	}
+	.container-number i{
+		font-size: 3em;
 	}
 	.container-number {
 	  width: calc(50% - 40px);
@@ -843,7 +853,7 @@ footer{
   }
   @media screen and (max-width: 480px) {
 	.wrapper-number  {
-	  gap: 15px;
+	  /* gap: 15px; */
 	  /* padding: 20px 40px; */
 	}
 	.container-number  {

@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
 	<title>Lodhi Industries</title>
 	<!-- All CSS -->
 	<link href="bootstrap.min.css" rel="stylesheet">
@@ -47,25 +48,29 @@
   <link rel="stylesheet" href="test.css">
 </head>
 <body>
-<div class="container">  <div class="subheader">
-<div class="left-header">
-  <div class="location">
-    <a href="https://maps.google.com/maps?q=Your+Address" target="_blank"><i class="fas fa-map-marker-alt"></i> <span>Location</span> </a>
+  <div class="subheader-container bg-light ">
+    <div class="container">
+      <div class="subheader">
+  <div class="left-header">
+    <div class="location">
+      <a href="https://maps.google.com/maps?q=Your+Address" target="_blank"><i class="fas fa-map-marker-alt"></i> <span>Location</span> </a>
+    </div>
+    <div class="mail">
+      <a href="mailto:your@email.com"> <i class="fas fa-envelope"></i> <span></span> your@email.com</a>
+    </div>
+    <div class="phone-header">
+      <a  href="tel:7869408043">  <i class="fas fa-phone"></i> <span>Call:</span>+91 7869408043</a>
+    </div>
   </div>
-  <div class="mail">
-    <a href="mailto:your@email.com"> <i class="fas fa-envelope"></i> <span></span> your@email.com</a>
+    <div class="social-media">
+      <a href="#"><i class="fab fa-facebook-f"></i> </a>
+      <a href="#"><i class="fab fa-twitter"></i> </a>
+      <a href="#"><i class="fab fa-instagram"></i> </a>
+    </div>
   </div>
-  <div class="phone-header">
-    <a  href="tel:7869408043">  <i class="fas fa-phone"></i> <span>Call:</span>+91 7869408043</a>
   </div>
-</div>
-  <div class="social-media">
-    <a href="#"><i class="fab fa-facebook-f"></i> </a>
-    <a href="#"><i class="fab fa-twitter"></i> </a>
-    <a href="#"><i class="fab fa-instagram"></i> </a>
   </div>
-</div>
-</div>
+
 <div class="seperator"></div>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 		<div class="container">
@@ -162,7 +167,7 @@
               <p class="mb-4">Committed to quality, we prioritize customer satisfaction and sustainability. Our skilled team ensures excellence through professionalism. Partner with us for success.</p>
               <img src="img/signature.jpg" alt="">
           </div>
-          <div class="col-lg-5 pb-5 desktop-none" style="min-height: 400px; ">
+          <div class="col-lg-5 pb-5 desktop-none" style="min-height: 400px;">
 
               <div class="position-relative bg-dark-radial h-100 ms-5">
 
@@ -264,7 +269,7 @@
       </div>
     </section>
 	<!-- machines -->
-	<section class="container">
+	<section id="machines" class="container">
     <div class="row">
       <div class="six">
       <h1>our machines<br>
@@ -548,7 +553,7 @@ A metalworking machine that uses rotary cutters to remove material, shaping meta
       </footer>
       </div> -->
 <!-- products -->
-<section class="container">
+<section class="container" id="products">
   <div class="row">
     <div class="six">
     <h1>our Products<br>
@@ -756,56 +761,66 @@ A metalworking machine that uses rotary cutters to remove material, shaping meta
     </div>
     
     </section>
- <footer>
-   <div class="content">
-     <div class="left box">
-       <div class="upper">
-         <div class="topic">About us</div>
-         <p>
-          Lodhi Industries, founded in 2020, excels in manufacturing and services, prioritizing innovation, quality, and customer satisfaction, forging a path to success.</p>
-       </div>
-       <div class="lower">
-         <div class="topic">Contact us</div>
-         <div class="phone-header">
-           <a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a>
-         </div>
-         <div class="email">
-           <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
-         </div>
-       </div>
-     </div>
-     <div class="middle box">
-      <div class="topic">Quick Links</div>
-      <div><a href="index.html">Home</a></div>
-      <div><a href="about.html">About</a></div>
-      <div><a href="contact.html">Contact</a></div>
-      <div><a href="#">Our Products</a></div>
-      <div><a href="#">Our Machines</a></div>
-     </div>
-     <div class="right box">
-       <div class="topic">Subscribe us</div>
-       <form action="#">
-         <input type="text" type="email" placeholder="Enter email address">
-         <input type="submit" name="" value="Send">
-         <div class="media-icons">
-           <a href="#"><i class="fab fa-facebook-f"></i></a>
-           <a href="#"><i class="fab fa-instagram"></i></a>
-           <a href="#"><i class="fab fa-twitter"></i></a>
-           <a href="#"><i class="fab fa-youtube"></i></a>
-           <a href="#"><i class="fab fa-linkedin-in"></i></a>
-         </div>
-       </form>
-       
-     </div>
-   </div>
-   <div class="bottom">
-     <p>Copyright © 2023 <a href="#">websculpture</a> All rights reserved</p>
-   </div>
- </footer>
+    <footer>
+      <div class="content">
+        <div class="left box">
+          <div class="upper">
+            <div class="topic">About us</div>
+            <p>
+             Lodhi Industries, founded in 2020, excels in manufacturing and services, prioritizing innovation, quality, and customer satisfaction, forging a path to success.</p>
+          </div>
+          <div class="lower">
+            <div class="topic">Contact us</div>
+            <div class="phone">
+              <a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a>
+            </div>
+            <div class="email">
+              <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="middle box">
+         <div class="topic">Quick Links</div>
+         <div><a href="index.html">Home</a></div>
+         <div><a href="about.html">About</a></div>
+         <div><a href="contact.html">Contact</a></div>
+         <div><a href="#products">Our Products</a></div>
+         <div><a href="#machines">Our Machines</a></div>
+        </div>
+        <div class="right box">
+          <div class="topic">Subscribe us</div>
+          <form action="#" id="subscribeForm">
+              <input type="text" placeholder="Enter email address" id="emailInput" required>
+              <input type="submit" name="" value="Send" id="sendButton">
+              <span class="overlay"></span>
+              <div class="media-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+          </form>
+      </div>
+        <div class="modal" id="myModal">
+          <div class="modal-content">
+              <span class="close" id="closeModal">&times;</span>
+              <i class="fas fa-check-circle fa-4x" style="color: green;"></i>
+              <h2>Thank You!</h2>
+              <p>You have successfully subscribed.</p>
+          </div>
+      </div>
+  
+      </div>
+      <div class="bottom">
+        <p>Copyright © 2023 <a href="#">websculpture</a> All rights reserved</p>
+      </div>
+    </footer>
 
 </body>
 </html>
 	<!-- All Js -->
+  
   <script src="script.js"></script> 
 	<script src="bootstrap.bundle.min.js"></script> 
 </body>
